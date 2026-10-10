@@ -51,7 +51,7 @@ Inspired by *Moffatt v. Air Canada* (2024), where an airline paid for its chatbo
 | [MemoryDesk](https://github.com/namiqsarxanli-creator/MemoryDesk) | Layered agent memory on Cloudflare Workers + D1, side-by-side "memory off" comparison |
 | [Forex Signal Desk](https://github.com/namiqsarxanli-creator/forex-signal-desk) | News scoring in n8n → human approval → FastAPI risk limits → MT5 execution |
 | [Real-Estate Deal Finder](https://github.com/namiqsarxanli-creator/real-estate-deal-finder) | Listing scraping + OCR, market-price estimation, below-market alerts to Telegram |
-| [El Regreso](https://github.com/namiqsarxanli-creator/el-regreso) | LangGraph course project I designed: stateful graphs & checkpointing, with starter, solution and rubric |
+| [El Regreso](https://github.com/namiqsarxanli-creator/el-regreso) | LangGraph stateful graph with checkpointing — an agent that remembers across runs via `thread_id`, with live graph visualization |
 
 ---
 
@@ -61,7 +61,3 @@ Inspired by *Moffatt v. Air Canada* (2024), where an airline paid for its chatbo
 **Backend:** Python · FastAPI · SQLAlchemy · WebSockets · pytest
 **Frontend / Edge:** TypeScript · Next.js · React · Cloudflare Workers / D1
 **Automation & Integrations:** n8n · Twilio · Telegram · Google Workspace APIs · Docker
-
----
-
-*I also teach AI engineering — designing hands-on lessons on LangGraph and agent memory.*
